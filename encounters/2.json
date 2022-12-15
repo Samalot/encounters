@@ -1,0 +1,49 @@
+{
+  "id": 2,
+  "title": "Don't Forget the Zalg",
+  "tags": ["Encounter"],
+  "type": "Encounter",
+  "combat": false,
+  "recommended_level": 1,
+  "description": "A seller is eager for the party to not miss out on the \"forgotten vegetable\". Zalg",
+  "reward": ["Zalg"],
+  "introduction": "The party are shopping.",
+  "encounter": "As the exchange is ending, the vendor helpfully reminds the party not to forget the <strong>\"Zalg\"</strong> <quote>Vendor-Excuse me adventurers, don't forget the Zalg</quote> If the party question the vendor what Zalg is, they will insist that it is a vegetable. <quote>Vendor-Don't worry, after all, Zalg is the forgotten vegetable</quote> <quote>Vendor-This Zalg is fresh in, you should't hesitate, it delivers a whole range of health benefits</quote> Attempting to determine if you're being scammed, <strong>Insight Check (DC 1)</strong>, will reveal that the vendor is being completely genuine. <br/><br/>Zalg, a root vegetable (crimson in color), can be bought for 1 Silver piece each.",
+
+  "inspiration": [
+    {
+      "title": "Health benefits of Zalg",
+      "items": [
+        "Smoothens teeth",
+        "Outpace your peers!",
+        "Deters mice",
+        "Recommended by several healers"
+      ]
+    },
+    {
+      "title": "Alternative origins of Zalg",
+      "items": [
+        "The vendor knows the location of a Zalg plant",
+        "It pops into existence on the doorstop of the vendor each morning"
+      ]
+    }
+  ],
+
+  "items": [
+    {
+      "name": "Zalg",
+      "tags": ["edible"],
+      "text": "A root vegetable, crimson in color. Upon consumption of Zalg, the player rolls 1d20, 10 or lower and the player will turn crimson for 24 hours and upon sleeping will dream about fields of Zalg."
+    }
+  ],
+  "additional": [
+    {
+      "title": "Zalg Origins",
+      "text": "The vendor refuses to reveal where they get Zalg from. Intimidating the vendor, <strong>Intimidation Check (DC 14)</strong>, will force them to reveal that they buy it from a distributor called <strong>\"Pleasant Veg\"</strong>, located in the nearest major city. <encounter>Quest-3-Root of the Root</encounter>"
+    },
+    {
+      "title": "Additional",
+      "text": ["Attempting to ask other vendors about Zalg will result in them telling you that they have no idea what you're talking about.", "Attempting to naturally plant and grow more Zalg by the players will result in failure"]
+    }
+  ]
+}

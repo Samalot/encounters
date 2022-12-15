@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "title": "Pleasant Veg",
+  "maps": [
+    {
+      "name": "Top", 
+      "labels": [
+        "A large statue of a farmer and his child stands outside the entrance to Pleasant Veg"
+      ]
+    },
+    {
+      "name": "Basement",
+      "labels": [
+        "<strong>Store Room</strong>: Stairs lead down to a dark store room, containing several crates of various fruit and veg. In the far left corner a secret doorway is hidden by a shelf",
+        "<strong>Altar Room</strong>: A large room with a blood altar to the left. Trails of blood lead over to a furnace in the right. Around the furnace are piles of bones and two stone slabs, one of which holds a warpped body",
+        "<strong>Jail Cell</strong>: A small, dirty, jail cell. All it contains is: a bed roll; a bucket of water and some old chains secured to the wall",
+        "<strong>Cave</strong>: In the basement wall is the mouth of a cave, emitting an eerie purple light. To the right of the entrance is a large pile of bones. To the left is a blood altar, with a human head sitting on it. Purple liquid runs out from underneath the alter and into a section of the cave containing several Zalg plants"
+      ]
+    }
+  ]
+}

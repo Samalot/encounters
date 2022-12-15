@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "title": "Root of the Root",
+  "tags": ["Quest", "City"],
+  "type": "Quest",
+  "combat": true,
+  "recommended_level": 3,
+  "description": "It's time for the adventurers to learn the truth about Zalg",
+  "reward": ["Zalg"],
+  "introduction": "The party are shopping.",
+  "encounter": "Zalg"
+}

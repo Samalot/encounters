@@ -1,0 +1,29 @@
+[  
+  {
+    "title": "The Auction",
+    "tags": ["Encounter, City, Building"],
+    "combat": false,
+    "recommended_level": 1,
+    "type": "Encounter",
+    "description": "The party stumble across an ongoing auction, potentially obtaining a mysterious key",
+    "reward": ["Auctioned Items", "Wonderous Item(s)"]
+  },
+  {
+    "title": "Don't Forget the Zalg",
+    "tags": ["Encounter"],
+    "combat": false,
+    "recommended_level": 1,
+    "type": "Encounter",
+    "description": "A seller is eager for the party to not miss out on the \"forgotten vegetable\". Zalg",
+    "reward": ["Auctioned Items", "Wonderous Item(s)"]
+  },
+  {
+    "id": 3,
+    "title": "Root of the Root",
+    "tags": ["Quest, City"],
+    "combat": true,
+    "type": "Quest",
+    "recommended_level": 3,
+    "description": "It's time for the adventurers to learn the truth about Zalg"
+  }
+]

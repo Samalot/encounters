@@ -1,0 +1,32 @@
+@import "colors";
+
+html,
+body {
+  background-color: $primaryLight;
+  background-image: url("../resources/image/parchment.jpg");
+  background-repeat: repeat;
+  margin: 0;
+  font-family: "bookmania", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pageWrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.mainContent {
+  max-width: 1200px;
+  width: 100%;
+  padding: 5px 20px;
+  background-color: white;
+  flex-grow: 1;
+  box-sizing: border-box;
+}

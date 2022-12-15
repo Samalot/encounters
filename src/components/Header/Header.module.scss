@@ -1,0 +1,30 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.headerContainer button {
+  margin: 0 5px;
+  font-size: 24px;
+  font-family: 'beclave';
+  color: #58180e;
+  background-color: transparent;
+  border: none;
+}
+
+.headerContainer button:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+.headerContainer span {
+  font-size: 24px;
+  font-family: 'beclave';
+  color: #58180e;
+  font-weight: bold;
+}
+
+.selected {
+  text-decoration: underline;
+}

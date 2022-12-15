@@ -1,0 +1,57 @@
+{
+  "id": 2,
+  "title": "The Auction",
+  "tags": ["Encounter, City, Building"],
+  "combat": false,
+  "recommended_level": 1,
+  "description": "The party stumble across an ongoing auction, potentially obtaining a mysterious key",
+  "reward": ["Auctioned Items", "Wondrous Item(s)"],
+  "introduction": "The party hear a loud event occurring in a nearby building.",
+  "encounter": "As the party enters the building they are met with a large crowd gathered around an Auctioneer in the midst of selling an item. <quote>\"Going once, going twice, sold to the man in the red tunic\" - Auctioneer</quote> The party may engage in the auction as further items are put up for sale. If the party have any enemies who would be in attendance, they may attempt to outbid the party out of petty spite. <quote>\"And now for our final item today, a sterling silver keyring and key\" - Auctioneer</quote> The key opens a locked shed (situated in the closest major settlement) belonging to <strong>Zumberos Murixon (Elf Librarian)</strong>. Zumberos has since passed and it is unknown how the key ended up in the auction collection.<br/><br/> If the party win the key, inspecting it will reveal a label containing a street name and number.<br/><br/> This location can be discovered with a <strong>Persuasion Check (DC 10)</strong> to convince the auctioneer to reveal the origin of the item or if a party member familiar with this settlement makes a <strong>History Check (DC 10)</strong> to recall the location. <br/><br/> Locating and unlocking the shed will reveal a small room with various low value items and a Wonderous Item located in a chest on a dusty shelf, such as the <strong>Scholar’s Monocle</strong>.",
+
+  "inspiration": [
+    {
+      "title": "Alternative auction locations",
+      "items": [
+        "The local inn",
+        "An abandoned warehouse",
+        "A roadside tavern",
+        "<i>(secretive)</i> Basement of a local guild"
+      ]
+    },
+    {
+      "title": "Why is the auction being held?",
+      "items": [
+        "To sell of various treasures/trinkets from recently cleared out dungeons",
+        "To sell of the possessions of a recently deceased town member",
+        "<i>(criminal)</i> As a front to move stolen items",
+        "<i>(mysterious)</i> Unknown. Furthermore, if the party attempt to learn more about the auction later on, nobody will know what they're talking about"
+      ]
+    },
+    {
+      "title": "Items up for auction",
+      "items": [
+        "A porcelain chamber pot",
+        "A silver handheld mirror (100gp)",
+        "An oil painting of a famous event (50gp)",
+        "An ornate domino mask (30gp)"
+      ]
+    }
+  ],
+
+  "items": [
+    {
+      "name": "Scholar’s Monocle",
+      "tags": ["wonderous item"],
+      "attunement": true,
+      "text": "A gold-rimmed glass monocle. While wearing this lens in a library, you have advantage on Intelligence (Investigation) checks to find relevant books and information."
+    }
+  ],
+
+  "credits": [
+    {
+      "title": "Item by Reddit user Kintpuash-of-Kush",
+      "link": "https://www.reddit.com/r/DnD/comments/6ja76f/lets_gather_a_list_of_fun_unique_magical_items/djct43e/"
+    }
+  ]
+}

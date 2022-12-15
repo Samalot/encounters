@@ -1,0 +1,15 @@
+.loadingWrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.loading {
+  font-size: 24px;
+  font-family: 'beclave';
+  color: #58180e;
+  margin-top: 20px;
+}

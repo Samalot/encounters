@@ -1,0 +1,76 @@
+.section {
+  margin: 30px 0 10px 0;
+  padding: 0;
+  font-size: 26px;
+  font-family: 'beclave';
+  color: #58180e;
+  border: solid #ccb273 0;
+  border-bottom-width: 2px;
+}
+
+.part {
+  margin-top: 15px;
+}
+
+.imageContainer {
+  // width: 800px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.mapImg {
+  width: 100%;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+.menu {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'beclave';
+  background-color: #58180e;
+  color: white;
+  border-radius: 5px;
+  border: solid white 2px;
+  margin: 5px;
+  padding: 0px 10px;
+}
+
+.labels {
+  margin-top: 10px;
+}
+
+.imgButton {
+  background-color: #58180e;
+  color: white;
+  font-size: 18px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 5px;
+  border: none;
+}
+
+.imgButton:hover {
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+.buttonWrapper {
+  display: flex;
+  margin: 10px 0;
+}
